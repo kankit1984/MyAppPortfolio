@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showToast(View view) {
-
+    //test
         Context context = getApplicationContext();
         Button button = (Button) view;
         CharSequence text = "This button will launch my " + button.getText().toString() + "!";
